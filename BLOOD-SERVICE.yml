@@ -10,4 +10,5 @@ spring:
   data:
       neo4j:
         database: base
-   
+  application:
+    name: BLOOD-SERVICE
