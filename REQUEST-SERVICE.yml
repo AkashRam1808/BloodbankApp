@@ -1,0 +1,18 @@
+server:
+  port: 8083
+  
+spring:
+
+   application:
+      name: REQUEST-SERVICE
+
+   neo4j:
+       uri: bolt://localhost:7687
+       
+       authentication:
+         username: neo4j
+         password: password
+       
+   data:
+        neo4j:
+          database: requestdatabase
